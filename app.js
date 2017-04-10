@@ -7,10 +7,12 @@ $("#button").click(function(){
 	 	for (var j = 0; j < colonne ; j++) {
 	 		$("#tb tr:last-child").append("<td data-coord=x"+i+"y"+j+"></td>");
 		}
-	console.log(ligne);
-	console.log(colonne);
 	}
 
+
+     var ord = Math.round(Math.random()*ligne);
+     var abs = Math.round(Math.random()*colonne);
+     console.log(ord);
 });
 
 

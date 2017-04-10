@@ -1,3 +1,7 @@
 .form-group{
 text-align: center;
 }
+
+label{
+text-decoration: underline;
+}
